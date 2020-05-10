@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiển thị giỏ hàng</title>
+
+    <script src="https://kit.fontawesome.com/cbdcd0ca46.js" crossorigin="anonymous"></script>
+    <script src="js/sanPham.js"></script>
+    <script src="js/gioHang.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gio_hang.css">
+</head>
+
+<body>
+    <div id="search">
+        <div class="box">
+            <div class="images">
+                <a href="index.html">
+                    <img src="images/logo-mb.png">
+                </a>
+            </div>
+
+            <div class="item-icon-gio-hang">
+                <a href="">
+                    <i class="fas fa-cart-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <nav id="nav-bar">
+        <ul class="menu-level-1">
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">ĐIỆN THOẠI</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Apple iPhone</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">SamSung</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Xiaomi</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Oppo</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">TABLE</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Apple iPad</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">SamSung</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">MACBOOK</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Macbook Air</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Macbook pro</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Surface</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">SMART WATCH</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Apple</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">SamSung</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">MÁY CŨ</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Điện thoại</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Table</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Macbook </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">PHỤ KIỆN</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Tai nghe</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Ốp lưng</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Sim</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">SIM - THẺ</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Mobifone</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Viettel</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">DỊCH VỤ</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Bảo hành, bảo hiểm</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Trả góp</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Thu cũ đổi mới</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">ADMIN</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="them_moi_san_pham.html" class="item-level-2-title">Thêm Sản Phẩm</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Sửa Thông Tin</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!-- b1 xây dụng layout cho item html + css -->
+    <div id="gio-hang" class="gio-hang">
+        <h1 class="tieuDe">Danh sách sản phẩm</h1>
+        <div class="item-gio-hang tieuDeItemGioHang">
+            <div class="hinhAnh">
+            </div>
+            <div class="ten">
+                <p> Sản Phẩm
+                <p>
+            </div>
+            <div class="gia">
+                <p> Đơn Giá </p>
+            </div>
+            <div class="soLuong">
+                <p>Số Lượng</p>
+            </div>
+            <div class="tongTien">
+                <p>Tổng Tiền</p>
+            </div>
+            <div class="hanhDong">
+                <p>Thao Tác</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="form">
+
+        <label for="hoTen">Họ tên</label>
+        <input type="text" id="hoTen">
+        <label id="thongBaoLoiHoTen" for="hoTen" class="error"></label>
+
+        <label for="soDienThoai">Số điện thoại</label>
+        <input type="number" id="soDienThoai">
+        <label id="thongBaoLoiSoDienThoai" for="soDienThoai" class="error"></label>
+
+        <label for="diaChi">Địa chỉ</label>
+        <input type="text" id="diaChi">
+        <label id="thongBaoLoiDiaChi" for="diaChi" class="error"></label>
+
+        <label for="Email">Email</label>
+        <input type="text" id="Email">
+        <label id="thongBaoLoiEmail" for="Email" class="error"></label>
+
+        <label for="Pass">Mật khẩu</label>
+        <input type="password" id="Pass">
+        <label id="thongBaoLoiPass" for="Pass" class="error"></label>
+
+        <button onclick="dangKi()" class="btn">Đăng kí</button>
+    </div>
+
+
+    <footer>
+        <div id="p_cuoi">
+            <div class="p-1">                
+                <div class="k_chu" style="cursor: pointer;">
+                    <li>Giới thiệu về công ty</li>
+                    <li>Câu hỏi thường gặp mua hàng</li>
+                    <li>Chính sách bảo mật</li>
+                    <li>Quy chế hoạt động</li>
+                    <li>Kiểm tra hóa đơn điện tử</li>
+                    <li>Tra cứu thông tin bảo hành</li>
+                </div>
+            </div>
+            <div class="p-2">
+                <div class="k_chu" style="cursor: pointer;">
+                    <li>Tin tuyển dụng</li>
+                    <li>Tin khuyến mãi</li>
+                    <li>Hướng dẫn mua online</li>
+                    <li>Hướng dẫn mua trả góp</li>
+                    <li>Chính sách trả góp</li>                
+                </div>
+            </div>
+            <div class="p-3">
+                <div class="k_chu" style="cursor: pointer;">
+                    <li>Hệ thống cửa hàng</li>
+                    <li>Hệ thống bảo hành</li>
+                    <li>Kiểm tra hàng Apple chính hãng</li>
+                    <li>Giới thiệu máy đổi trả</li>
+                    <li>Chính sách đổi trả</li>
+                </div>
+            </div>
+            <div class="p-4">
+                <div class="k_chu" style="cursor: pointer;">
+                    <li>Tư vấn mua hàng miễn phí</li>
+                    <li>1800 6601</li>
+                    <br>
+                    <li>Hỗ trợ thanh toán</li>
+                    <li>
+                        <img src="images/vía.png" style="width: 50px; height: 20px;">
+                        <img src="images/máter.png" style="width: 50px; height: 20px;">
+                    </li>
+                    <li>
+                        <img src="images/BCT.png" style="width: 50px; height: 20px;">
+                    </li>
+                </div>
+            </div>
+            <div class="p-5">
+                <div class="k_chu" style="cursor: pointer;">
+                    <li>Góp ý khiếu nại</li>
+                    <li>1800 6601</li>
+                    <br>
+                    <li>Chứng nhận</li>
+                    <li>
+                        <img src="images/1.png"  style="width: 50px; height: 20px;">
+                        <img src="images/2.png"  style="width: 50px; height: 20px;">
+                        <img src="images/5.png"  style="width: 50px; height: 20px;">
+                    </li>                
+                </div>
+            </div>
+            <div class="p-5">
+                <div class="k_chu" style="cursor: pointer;">
+                    <li>Website cung tập đoàn</li>
+                    <li>
+                        <img src="images/3.png"  style="width: 50px; height: 20px;">
+                        <img src="images/4.png"  style="width: 50px; height: 20px;">                      
+                    </li>                
+                </div>
+            </div>
+        </div>
+        <div class="dia_chi">
+            © 2007 - 2020 Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT / 
+            Địa chỉ: 261 - 263 Khánh Hội, P5, Q4, TP. Hồ Chí Minh / 
+            GPĐKKD số 0311609355 do Sở KHĐT TP.HCM cấp ngày 08/03/2012. 
+            GP số 47/GP-TTĐT do sở TTTT TP HCM cấp ngày 02/07/2018. 
+            Điện thoại: (028)73023456. 
+            Email: fptshop@fpt.com.vn. 
+            Chịu trách nhiệm nội dung: Nguyễn Trịnh Nhật Linh.
+        </div>
+    </footer>
+
+
+    <!-- b2. giả lập hàm javascript để chuyển đổi -->
+    <script>
+        hienThiDanhSachItemGioHang();
+        // <!--viết hàm chuyển đổi danh sách đối tượng thành html -->
+        function chuyenDoiDanhSachItemGioHangSangHtml(danhSachItemGioHang) {
+            var htmlTong = '';
+            for (var i = 0; i < danhSachItemGioHang.length; i++) {
+                htmlTong = htmlTong + chuyenDoiTuongItemGioHangSangHTML(danhSachItemGioHang[i]);
+            }
+            return htmlTong;
+        }
+
+        function chuyenDoiTuongItemGioHangSangHTML(itemGioHang) {
+            // b1. chuyển từu idsanpham -> đối tượng sanpham
+            var sanPham = laySanPhamTheoId(itemGioHang.idSanPham);
+            console.log(sanPham);
+            // b2. khi có đ/t , thay thế
+            var tongTien = itemGioHang.soLuong * sanPham.tinhGiaBan();
+
+            var html =
+
+                '<div id="item-gio-hang" class="item-gio-hang">  ' +
+                '<div class="hinhAnh">  ' +
+                '   <img src="' + sanPham.hinhAnh + '" alt="">  ' +
+                '</div>  ' +
+                '<div class="ten"> <p>' + sanPham.ten + '</p>  </div>' +
+                '<div class="gia">  ' +
+                '   <span class="giaBan">' + themChamVaoSo(sanPham.tinhGiaBan()) + 'Đ</span>  ' +
+                '   <span class="giaGoc">' + themChamVaoSo(sanPham.giaGoc) + 'Đ</span>  ' +
+                '</div>  ' +
+                '   <input type="number" class="soLuong" value="' + itemGioHang.soLuong + '">  ' +
+                '<div class="tongTien"><p>' + themChamVaoSo(tongTien) + 'Đ</p>  </div>' +
+                '<div class="hanhDong">                   ' +
+                '<i class="fas fa-trash-alt" onclick="onclickXoa(' + "\'" + itemGioHang.idSanPham + "\'" + ')"></i>  ' +
+                '</div>  ' +
+                '</div>  ';
+
+            return html;
+        }
+
+        // b4 truy cập node cần hiển thị và găn html vào node đó
+        function hienThiDanhSachItemGioHang() {
+            // b1. load d/s từ local storage
+            var danhSachItemGioHang = layDanhSachItemGioHang();
+            // b2.chuyển d/s item giỏ hảng sang html
+            var HTML = chuyenDoiDanhSachItemGioHangSangHtml(danhSachItemGioHang);
+            // b3.truy cập node giohang để in ra 
+            var nodeGioHang = document.getElementById('gio-hang');
+            nodeGioHang.innerHTML = nodeGioHang.innerHTML + HTML;
+        }
+        function onclickXoa(idSanPham) {
+            // Xóa node hiển thị
+            let nodeSanPham = event.target.parentElement;
+            console.log(nodeSanPham.parentElement);
+            nodeSanPham.parentElement.remove();
+            // Xóa data
+            let dataGioHang = layDanhSachItemGioHang("danhSachItemGioHang");
+            let vitri = dataGioHang.findIndex(sp => sp.idSanPham == idSanPham);
+            dataGioHang.splice(vitri, 1);
+            luuDanhSachItemGioHangVaoLocalStorege(dataGioHang, "danhSachItemGioHang");
+        }
+    </script>
+
+
+
+
+    <!-- b5. xỷ lý hàm chuyển đổi đối tượng -->
+
+</body>
+
+</html>

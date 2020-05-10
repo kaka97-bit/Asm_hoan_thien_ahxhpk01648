@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xây dựng chức năng thêm mới sản phẩm</title>
+    <link rel="stylesheet" href="css/themSp.css">
+    <script src="js/hoTro.js"></script>
+    <script src="js/sanPham.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="search">
+        <div class="box">
+            <div class="images">
+                <a href="index.html">
+                    <img src="images/logo-mb.png">
+                </a>
+            </div>
+            
+            <div class="item-icon-gio-hang">
+                <a href="">
+                    <i class="fas fa-cart-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <nav id="nav-bar">
+        <ul class="menu-level-1">
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">ĐIỆN THOẠI</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Apple iPhone</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">SamSung</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Xiaomi</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Oppo</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">TABLE</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Apple iPad</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">SamSung</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">MACBOOK</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Macbook Air</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Macbook pro</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Surface</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">SMART WATCH</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Apple</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">SamSung</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">MÁY CŨ</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Điện thoại</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Table</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Macbook </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">PHỤ KIỆN</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Tai nghe</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Ốp lưng</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Sim</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">SIM - THẺ</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Mobifone</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Viettel</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">DỊCH VỤ</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Bảo hành, bảo hiểm</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Trả góp</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Thu cũ đổi mới</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="item-level-1">
+                <a href="#" class="item-level-1-title">ADMIN</a>
+                <ul class="menu-level-2">
+                    <li class="item-level-2">
+                        <a href="them_moi_san_pham.html" class="item-level-2-title">Thêm Sản Phẩm</a>
+                    </li>
+                    <li class="item-level-2">
+                        <a href="#" class="item-level-2-title">Sửa Thông Tin</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="them-moi-san-pham">
+        <label for="hinhAnh">Hình ảnh sản phẩm</label>
+        <input type="text" id="hinhAnh">
+
+        <label for="ten">Tên sản phẩm</label>
+        <input type="text" id="ten">
+
+        <label for="giaGoc">Giá gốc sản phẩm</label>
+        <input type="number" id="giaGoc">
+
+        <label for="phanTramGiamGia">Phần trăm giảm giá (0-1)%</label>
+        <input type="number" id="phanTramGiamGia">
+
+        <label for="khuVuc">Khu vực</label>
+        <input type="text" id="khuVuc">
+
+        <button onclick="onClickTaoSanPham()">Tạo sản phẩm</button>
+    </div>
+
+    <footer>
+        <div id="p_cuoi">
+            <div class="p-1">                
+                <div class="k_chu" style="cursor: pointer;">
+                    <li>Giới thiệu về công ty</li>
+                    <li>Câu hỏi thường gặp mua hàng</li>
+                    <li>Chính sách bảo mật</li>
+                    <li>Quy chế hoạt động</li>
+                    <li>Kiểm tra hóa đơn điện tử</li>
+                    <li>Tra cứu thông tin bảo hành</li>
+                </div>
+            </div>
+            <div class="p-2">
+                <div class="k_chu" style="cursor: pointer;">
+                    <li>Tin tuyển dụng</li>
+                    <li>Tin khuyến mãi</li>
+                    <li>Hướng dẫn mua online</li>
+                    <li>Hướng dẫn mua trả góp</li>
+                    <li>Chính sách trả góp</li>                
+                </div>
+            </div>
+            <div class="p-3">
+                <div class="k_chu" style="cursor: pointer;">
+                    <li>Hệ thống cửa hàng</li>
+                    <li>Hệ thống bảo hành</li>
+                    <li>Kiểm tra hàng Apple chính hãng</li>
+                    <li>Giới thiệu máy đổi trả</li>
+                    <li>Chính sách đổi trả</li>
+                </div>
+            </div>
+            <div class="p-4">
+                <div class="k_chu" style="cursor: pointer;">
+                    <li>Tư vấn mua hàng miễn phí</li>
+                    <li>1800 6601</li>
+                    <br>
+                    <li>Hỗ trợ thanh toán</li>
+                    <li>
+                        <img src="images/vía.png" style="width: 50px; height: 20px;">
+                        <img src="images/máter.png" style="width: 50px; height: 20px;">
+                    </li>
+                    <li>
+                        <img src="images/BCT.png" style="width: 50px; height: 20px;">
+                    </li>
+                </div>
+            </div>
+            <div class="p-5">
+                <div class="k_chu" style="cursor: pointer;">
+                    <li>Góp ý khiếu nại</li>
+                    <li>1800 6601</li>
+                    <br>
+                    <li>Chứng nhận</li>
+                    <li>
+                        <img src="images/1.png"  style="width: 50px; height: 20px;">
+                        <img src="images/2.png"  style="width: 50px; height: 20px;">
+                        <img src="images/5.png"  style="width: 50px; height: 20px;">
+                    </li>                
+                </div>
+            </div>
+            <div class="p-5">
+                <div class="k_chu" style="cursor: pointer;">
+                    <li>Website cung tập đoàn</li>
+                    <li>
+                        <img src="images/3.png"  style="width: 50px; height: 20px;">
+                        <img src="images/4.png"  style="width: 50px; height: 20px;">                      
+                    </li>                
+                </div>
+            </div>
+        </div>
+        <div class="dia_chi">
+            © 2007 - 2020 Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT / 
+            Địa chỉ: 261 - 263 Khánh Hội, P5, Q4, TP. Hồ Chí Minh / 
+            GPĐKKD số 0311609355 do Sở KHĐT TP.HCM cấp ngày 08/03/2012. 
+            GP số 47/GP-TTĐT do sở TTTT TP HCM cấp ngày 02/07/2018. 
+            Điện thoại: (028)73023456. 
+            Email: fptshop@fpt.com.vn. 
+            Chịu trách nhiệm nội dung: Nguyễn Trịnh Nhật Linh.
+        </div>
+    </footer>
+
+
+    <script>
+        /*B1. Lấy danh sách sản phẩm trong LCS*/
+        /*lấy lên sẽ là dạng string nên phải parse thành danh sách JSON thành object*/
+        var danhSachSanPham = JSON.parse(localStorage.getItem('danhSachSanPham'));
+        if (danhSachSanPham == null) {
+            danhSachSanPham = new Array();
+        }
+        console.log(danhSachSanPham);
+
+
+        function hienThiHinhAnh() {
+            var hienThi = chuyenDanhSachDoiTuongSanPhamThanhHTML('hinhAnh');
+        }
+        /*NHIỆM VỤ:
+        1. lắng nghe ONCLICK khi nhấp vào button
+        2. lấy toàn bộ dữ liệu người dùn nhập vào
+        3. tạo ra toàn bộ sản phẩm*/
+
+
+        function onClickTaoSanPham() {
+            console.log('gọi hàm onClickTaoSanPham()');
+            /*Truy cập vào node*/
+            var nodeHinhAnh = document.getElementById('hinhAnh');
+            var hinhAnh = nodeHinhAnh.value;
+            console.log('Hình ảnh là: ' + hinhAnh);
+            nodeHinhAnh.value = '';
+
+            var nodeTen = document.getElementById('ten');
+            var ten = nodeTen.value;
+            console.log('Tên sản phẩm là: ' + ten);
+            nodeTen.value = '';
+
+            var nodeGiaGoc = document.getElementById('giaGoc');
+            var giaGoc = parseInt(nodeGiaGoc.value);
+            console.log('Giá gốc là: ' + giaGoc);
+            nodeGiaGoc.value = '';
+
+            var nodePhanTramGiamGia = document.getElementById('phanTramGiamGia');
+            var phanTramGiamGia = parseFloat(nodePhanTramGiamGia.value);
+            console.log('Phần trăm giảm giá là: ' + phanTramGiamGia);
+            nodePhanTramGiamGia.value = '';
+
+            var nodeKhuVuc = document.getElementById('khuVuc');
+            var khuVuc = nodeKhuVuc.value;
+            console.log('Khu vực: ' + khuVuc);
+            nodeKhuVuc.value = '';
+
+            /*Tạo ra đối tượng khi nhập liệu vào*/
+            var sanPham = taoDoiTuongSanPham(hinhAnh, ten, giaGoc, phanTramGiamGia, khuVuc);
+            console.log(sanPham);
+
+            console.log('Tên sản phẩm nhập vào là: ' + sanPham.ten + ' và gián bán sản phẩm là: ' + sanPham.tinhGiaBan());
+            /*ĐƯA SẢN PHẨM VÀO DANH SÁCH*/
+            danhSachSanPham.push(sanPham);
+            console.log('Danh sách sản phẩm là: ');
+            console.log(danhSachSanPham);
+
+            /*LƯU TRỮ DANH SÁCH SẢN PHẨM XUỐNG LCS*/
+            var jsonDanhSachSanPham = JSON.stringify(danhSachSanPham);
+            localStorage.setItem('danhSachSanPham', jsonDanhSachSanPham);
+
+            alert("Bạn đã thêm thành công sản phầm.");
+        }
+
+    </script>
+</body>
+
+</html>
